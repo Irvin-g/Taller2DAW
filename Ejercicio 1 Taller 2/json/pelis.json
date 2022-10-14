@@ -1,0 +1,51 @@
+{
+    "title": "Peliculas de interes",
+    "link": "https://pelisplus.me/",
+    "description": "Liga de campeones de Europa",
+    "language": "es",
+    "items": [
+        {
+            "id":"1",
+            "title1" : "Cuestion de tiempo",
+            "pro1"  : "Tim, Mary",
+            "description1": "Es una historia de un chico que cuando cumple 21 su padre le revela que en su familia tienen la capacidad de viajar en el tiempo y poder correjir algun error o revivir algun momento en especial, esto lo ocupa para conseguir una chica de la cual el se enamora y hace todo lo posible por coincidir hasta que lo logra y ambos se enamoraron pasa algun tiempo hasta que despues de la opera se decide proponerle matrimonio a la chica la cual acepta feliz ",
+            "director1": "Richard Curtis"
+        },
+        {
+            "id":"2",
+            "title2" : "Una esposa de mentiras",
+            "pro2"  : "Katherine Murphy, Dr. Daniel Maccabee, Palmer",
+            "description2": "Danny (Adam Sandler) es un exitoso cirujano plástico, despreciado en su juventud por su deforme nariz, que le provocó ser rechazado por su prometida. Pero una noche descubre que una mujer lo invito a su habitación por ser casado y tenerle lastima por su mal matrimonio, todo por el anillo de bodas que llevaba en el dedo. Entonces con ese anillo finge ser un infeliz marido para ligar con mujeres y así superar su trauma. Cuando finalmente conoce a una chica llamada Palmer (Brooklyn Decker) de la que se enamora.",
+            "director2": " Dennis Dugan"
+        },
+        {
+            "id":"3",
+            "title3" : "Votos de amor",
+            "pro3"  : "Paige, Leo Collins",
+            "description3": "Inspirado por una historia real, The Vow es la historia de un amor que se niega a ser olvidado. Leo está devastado cuando un accidente automovilístico hunde a su esposa Paige (Rachel McAdams, The Notebook) en un coma profundo. Ella se recupera milagrosamente, pero los últimos cinco años de sus recuerdos se han desvanecido. De repente, Paige se encuentra casado con un extraño que no puede recordar nada de él. Ingenuamente, Paige cae bajo la influencia de sus padres controladores y se vuelve a conectar con su ex-prometido. Desesperadamente, Leo intenta recrear los momentos que dieron forma a su romance. ¿Puede reavivar la pasión antes de perder a Paige para siempre?",
+            "director3": " Michael Sucsy"
+        },
+        {
+            "id":"4",
+            "title4" : "bajo la misma estrella",
+            "pro4"  : "Hazel Grace Lancaster, Augustus Waters",
+            "description4": "Hazel Grace Lancaster (Shailene Woodley) es una adolescente que vive en los suburbios de Indianápolis, ella sufre de cáncer de tiroides en etapa terminal que ha hecho metástasis en sus pulmones. Creyendo que está deprimida, su madre Frannie (Laura Dern) le pide asistir a un grupo de apoyo semanal para pacientes con cáncer para ayudarla a hacer amigos con personas que están pasando por lo mismo. Allí, Hazel conoce a Augustus Waters (Ansel Elgort), un encantador adolescente que perdió una pierna por un cáncer de hueso pero desde entonces aparentemente no ha tenido cáncer. Invita a Hazel a su casa donde se unen por sus pasatiempos y aceptan leer los libros favoritos de cada uno.",
+            "director4": "Josh Boone"
+        },
+        {
+            "id":"5",
+            "title5" : "rapido y furioso 8",
+            "pro5"  : "Dominic Toretto, Luke Hobes, Ian Shaw, Cipher, Letty Ortiz",
+            "description5": "Con Dom y Letty de luna de miel, Brian y Mia retirados y el resto de la pandilla viviendo en paz, parece que todo está tranquilo. Sin embargo, una misteriosa mujer seducirá a Dom para adentrarlo en el mundo del crimen y traicionar a la pandilla. ",
+            "director5": "F. Gary Gray"
+        },
+        {
+            "id":"6",
+            "title6" : "rompiendo las reglas 2",
+            "pro6"  : "Case Walker, Max Cooperman, Zack Gomes, Mike Stokes, Tim Newhouse",
+            "description6": "El ex boxeador Zack (Alex Meraz), el talentoso luchador de MMA Tim (Todd Duffee), el empleado de la tienda de discos intimidado Justin (Scott Epstein) y el luchador Mike (Dean Geyer) provienen de diversos orígenes, pero todos comparten una cosa en común: una pasión para la ciencia salvaje y rápidamente se vuelven leales a su entrenador poco ortodoxo, Case (Michael Jai White), un brillante ex campeón de UFC por su propia suerte. ",
+            "director6": "Michael Jai White"
+        }
+
+    ]
+}
