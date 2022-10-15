@@ -1,73 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Validación de Formulario con Javascript</title>
-	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" href="../Ejercicio 2 Taller 2/css/menu.css">
-    <script src=""></script>
+    <title>Ordenando una pizza</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../Ejercicio 2 Taller 2/css/menu.css" />
 </head>
+
 <body>
-	<main>
-        <div id="fondo">
-            <h1 id="title">ORDEN DE POLLO</h1>
-        </div>
+    <header id="box">
+        <h1 id="flashlight">
+            <span id="flash">ORDEN DE</span>
+            <span id="light">POLLO</span>
+        </h1>
+    </header>
+    <form action="javascript:void(0);" class="demoForm" id="formCombos">
+        <fieldset>
+            <legend>Combos y productos</legend>
+            <p><label id="title2">Combo:</label> 
+                <br>
+                <label><input type="radio" name="size" value="7.25" checked="checked" />Super Combo</label>
+                <label><input type="radio" name="size" value="5.75" />Combo Personal</label>
+                <label><input type="radio" name="size" value="3.50" />Combo Infantil</label>
+                <input type="hidden" name="comb_tot" value="0.00" />
+            </p>
+            <p id="products"><label  id="title2">Productos:</label>
+                <br>
+                <label><input type="checkbox" name="ensalda" value="1.50" />Ensalda</label>
+                <label><input type="checkbox" name="papasf" value="1.25" />Papas Fritas</label>
+                <label><input type="checkbox" name="PPG" value="1.75" />Pieza de pollo Grande</label>
+                <label><input type="checkbox" name="PPM" value="1.50" />Pieza de pollo Mediana</label>
+                <label><input type="checkbox" name="PPP" value="1.25" />Pieza de pollo Pequena</label>
+                <label><input type="checkbox" name="BG" value="1.50" />Bebida Grande</label>
+                <label><input type="checkbox" name="BM" value="1.25" />Bebida Mediana</label>
+                <label><input type="checkbox" name="BP" value="1.00" />Bebida Pequena</label>
+                <label><input type="checkbox" name="Cafe" value="0.50" />Cafe</label>
+                <label><input type="checkbox" name="Postre" value="1.25" />Postre</label>
+                <input type="hidden" name="produc_tot" value="0.00" />
+            </p>
 
-		<form action="" class="formulario" id="formulario">
-			<!-- Grupo: Nombre -->
-            <h1 id="titl2">Combos y Productos</h1>
+            <p id="products"><label  id="title2">Comentarios:</label>
+                <br>
+                <textarea id="coment" name="comment" form="usrform" placeholder="Escriba aqui..."></textarea>
+            </p>
 
-            <!-- Grupo: combo -->
-			<div class="formulario__grupo" id="grupo__comen">
-				<label for="correo" class="formulario__label">Combos</label>
-				<div class="formulario__grupo-input">
-					<input type="radio" id="radio1" name="Grupo">Super Combo
-                    <br>
-                    <input type="radio" id="radio2" name="Grupo">Combo Personal
-                    <br>
-                    <input type="radio" id="radio3" name="Grupo">Combo Infantil
-                    <br> 
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
-				</div>
-			</div>
+            <p>
+                <label>
+                    Total: $<input type="text" name="total" class="num" value="0.00" readonly="readonly" />
+                </label>
+            </p>
+            <p>
+                <input onclick=" " id="enviar" type="submit" name="submit" value="Submit" />
+            </p>
 
-              <!-- Grupo: combo -->
-			<div class="formulario__grupo" id="grupo__comen">
-				<label for="correo" class="formulario__label">Productos</label>
-				<div class="formulario__grupo-input">
-					<input type="checkbox" id="check1">Ensalada
-                    <input type="checkbox" id="check2">Papas Fritas
-                    <input type="checkbox" id="check3">Pieza de pollo grande
-                    <input type="checkbox" id="check3">Pieza de pollo mediana
-                    <input type="checkbox" id="check3">Pieza de pollo pequena
-                    <input type="checkbox" id="check3">Bebida grande
-                    <input type="checkbox" id="check3">Bebida mediana
-                    <input type="checkbox" id="check3">Bebida pequena
-                    <input type="checkbox" id="check3">Postre
-                    <input type="checkbox" id="check3">Cafe
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
-				</div>
-			</div>
+            <p>
+                <label>
+                   PEDIDO: <p id="datos" type="text" name="pedido" class="text" readonly="readonly"></p>
+                </label>
+            </p>
 
-            <!-- Grupo: comentario -->
-			<div class="formulario__grupo" id="grupo__comen">
-				<label for="correo" class="formulario__label">Comentario</label>
-				<div class="formulario__grupo-input">
-					<textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Agrega un mensaje"></textarea>
-					<i class="formulario__validacion-estado fas fa-times-circle"></i>
-				</div>
-			</div>
-            <br>
-			<div class="formulario__grupo formulario__grupo-btn-enviar">
-				<button class="formulario__btn" value="Guardar datos">Guardar</button>
-			</div>
-            <div>
-				<p id="datos">Total a Pagar: </p>
-			</div>
-		</form>
-	</main>
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+        </fieldset>
+    </form>
+    <script src="../Ejercicio 2 Taller 2/Js/menu.js"></script>
 </body>
+
 </html>
